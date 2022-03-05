@@ -63,7 +63,7 @@ public:
     
     //reverse stack O(n)
     void reverser(){
-        temp = top;
+        mode* temp = top;
         while( temp != NULL){
             node* n = temp->prev;
             n->prev = temp;
